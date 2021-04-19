@@ -1,0 +1,3 @@
+IPA It is an application created by one person in the c# language to allow person to easily and quickly calculate ip addresses and their subnets, 
+application is also equipped with the VLSM calculation system for non-paral networks, 
+IPA can create up to 999 subnets and match them to a mask (if possible)
