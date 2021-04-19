@@ -38,7 +38,7 @@ namespace IPA
         private void Pass_Click(object sender, EventArgs e)
         {
             GetInputs();
-            if (IsIdiotSystem())
+            if (Security())
             {
                 if (VLSMCheckBox.Checked)
                 {
@@ -61,7 +61,7 @@ namespace IPA
 
         }
 
-        public bool IsIdiotSystem()
+        public bool Security()
         {
             int sum = 0;
             if (chceckIP())
